@@ -5,9 +5,9 @@
 //#include <Adafruit_INA219.h>
  
 // Connect to the WiFi
-const char* ssid = "Interra India";
-const char* password = "***interra###";
-const char* mqtt_server = "130.255.185.100";
+const char* ssid = "Your ssid";
+const char* password = "Your password";
+const char* mqtt_server = "your server IP address/name";
  
 WiFiClient espClient;
 PubSubClient client(espClient);
